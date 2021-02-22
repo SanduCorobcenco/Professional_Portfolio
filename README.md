@@ -5,7 +5,7 @@ ___
 ### Portfolio:
 ___
 ![Portfolio](./Assets/screenshot1.png)
-![Portfolio](./Assets/screenshot2.png)
+![Portfolio](./Assets/screensho2.png)
 ![Portfolio](./Assets/screenshot3.png)
 
 
