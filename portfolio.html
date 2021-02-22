@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Sandu Corobcenco">
+  <meta name="keywords" content="Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandu Corobcenco </title>
+  <!--Link reset.css-->
+  <link rel="stylesheet" href="reset.css">
+  <!--Bootstrap CSS Link getbootstrap.com-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--Bootstrap CSS Link mdbootstrap.com-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!--CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<!--Bootstrap background image mdbootstrap.com-->
+
+<body class="bg-image " >
+ 
+  <header class = "center">
+    <nav class="navbar navbar-expand-sm-right navbar-dark">
+     
+        <ul class="col-lg-11">
+          <li class="nav-item float-sm-right btn">
+            <a class="nav-link" href="index.html"><span>Home Page</span></a>
+          </li>
+        </ul>
+      
+    </nav>
+  </header>
+
+  <main class="container  center">
+  <!--Cards for projects-->
+    <div class="card-deck ">
+    <div class="card center" id="card-left" style="width: 21rem;">
+      <div class="card-body ">
+        <h5 class="card-title ">Weather Dashboard</h5>
+        <img class= "card_project" src="./Assets/1.png" alt="Weather Dashboard Project Photo">
+        <br> </br>
+        <p class="card-text">This application shows the weather for current day and next 5 days based on the user input city. It uses OpenWeatherApi to get the data to display.
+        </p>
+        <ul style="list-style-type:square">Knowledge & Skills gained: 
+          <li>Get data from API and append to bootstrap card</li>
+          <li>Generate API key</li>
+          <li>Bootstrap grid system</li>
+        </ul>
+        <div class="btn-group-justified center">
+      
+        <a href="https://sanducorobcenco.github.io/Weather_Dashboard/" class="btn-block btn-primary col-12 ">Website</a>
+        <a href="https://github.com/SanduCorobcenco/Weather_Dashboard" class="btn-block btn-primary col-12">Repository</a>
+    
+      </div>
+      </div>
+    </div>
+    <div class="card " id="card-middle" style="width: 21rem;">
+      <div class="card-body">
+        <h5 class="card-title ">Lost No More - group project</h5>
+        <img src="./Assets/topSites.gif" width="100%" alt="search"/>
+        <img src="./Assets/tags.gif" width="100%" alt="search"/>
+        <br> </br>
+        <p class="card-text">Have you ever visited a city and felt lost, not know what to do? Well feel lost no more. With this user friendly application, you can view a map, top locations, and the forecast of the city searched. It uses OpenWeather API and two Google API's, to retrieve data for the inputed city. As avid travelers, we wanted to create an application that has a map, top sites, and weather.</p>
+        <h5>Installation:</h5>
+        <p class ="card-text">In order to run the top sites for the city. Users must accept the cors proxy from cors-anywhere. At the following url:
+          <a href="https://cors-anywhere.herokuapp.com/">https://cors-anywhere.herokuapp.com/</a>
+          </p>
+          <img src="./Assets/herokuapp.png" width="100%" alt="search"/>
+          <br> </br>
+          <ul style="list-style-type:square">Knowledge & Skills gained: 
+            <li>Get data from an API call and use for other API call</li>
+            <li>Display Data using Append Operator</li>
+            <li>Create a Responsive Web App</li>
+          </ul>
+
+        <div class="btn-group-justified center">
+        <a href="https://obrienceob.github.io/LostNoMore/" class=" btn-block btn-primary col-12">Website</a>
+        <a href="https://github.com/SanduCorobcenco/LostNoMore" class=" btn-block btn-primary col-12">Repository</a>
+      </div>
+      </div>
+    </div>
+    <div class="card" id="card-right" style="width: 21rem;">
+      <div class="card-body ">
+        <h5 class="card-title ">Work Day Scheduler</h5>
+        <img class= "card_project" src="./Assets/workDay.png" alt="Work Day Scheduler Photo">
+        <br> </br>
+        <p class="card-text">The project provides a day planner that gives you the opportunity to add events/meetings on the dashboard. If the event/meeting is in the past, the color will be grey, if it is being present the color will be red, if it is in the feature, the color will be green.</p>
+        <ul style="list-style-type:square">Knowledge & Skills gained: 
+          <li>Using local storage to SET and GET data</li>
+          <li>Display Data using Append Operator</li>
+          <li>Create a Responsive Web App</li>
+        </ul>
+        
+        <div class="btn-group-justified center">
+        <a href="https://sanducorobcenco.github.io/H5_Day_Planner/" class=" btn-block btn-primary col-12 ">Website</a>
+        <a href="https://github.com/SanduCorobcenco/H5_Day_Planner" class=" btn-block btn-primary col-12">Repository</a>
+      </div>
+      </div>
+    </div>
+      
+
+    
+  </div>
+</main>
+
+
+
+
+  
+  <!-- Footer mdbootstrap.com -->
+  <footer class="page-footer font-small special-color-dark pt-2 fixed-bottom ">
+    <!-- Footer Elements -->
+    <form class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-git mx-1" href="https://github.com/SanduCorobcenco/">
+            <i class="fab fa-github ft30"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/sandu-corobcenco-527131165/">
+            <i class="fab fa-linkedin-in ft30"> </i>
+        <li class="list-inline-item">
+              <a class="btn-floating btn-so mx-1 " href="https://www.instagram.com/sandu.corobcenco/" >
+                <i class="fab fa-instagram ft30" > </i>
+              </a>
+            </li>
+          </a>
+        </li>
+      </ul>
+     
+    </form>
+  
+    <!-- Copyright -->
+    <small>© 2021 Copyright: Sandu Corobcenco</small>
+    <!-- Copyright -->
+
+  </footer>
+
+</div>
+
+</body>
+
+</html>
